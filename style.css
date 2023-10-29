@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* global styles */
+.bg-col{
+    background-color: #088F8F !important;
+    color: #088F8F !important;
+}
+.text-col{
+    color: #088F8F !important;
+}
+.btn-col{
+    color: #088F8F !important;
+    background-color: rgb(90, 138, 90) !important;
+}
+.text-col2{
+    color:  rgb(90, 138, 90) !important;
+}
+.zzzz{
+    position: fixed !important;
+    width: 100% !important;
+   z-index: 95 !important;
+
+}
+.hero-bg{
+    background-image: url(./Img/pexels-photo-416778.webp);
+    background-position : center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 100% !important; */
+   
+}
+
+.container-bg{
+    background-color: #F0F8FF;
+}
+.image-hm{
+    /* width: 100% !important;
+    height: 500px !important; */
+    transition: all ease-in-out 0.5s;
+}
+
+.image-hm:hover{
+    transform: scale(1.09);
+    
+}
+.card-text{
+    font-size: 8px !important;
+}
+.card{
+    transition: all ease-in-out 0.5s;
+}
+.card:hover{
+    transform: scale(1.09);  
+}
+.card:hover h5 {
+ color: #088F8F !important;
+}
+.card:hover p {
+    color: #088F8F !important;
+   }
+   .trainers-bio{
+    font-size: 8px;
+   }
+   .trainers{
+    width: 230px;
+    height: 250px;
+   }
+   .form-effect{
+    width: 450px;
+    height: 38px;
+   }
